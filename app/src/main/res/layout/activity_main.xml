@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        tools:context="datduong.tflite.yolov3.MainActivity">
+
+    <datduong.tflite.yolov3.AutoFitTextureView
+            android:id="@+id/textureView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"/>
+    <datduong.tflite.yolov3.DrawerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/drawerView"/>
+</RelativeLayout>

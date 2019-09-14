@@ -1,0 +1,7 @@
+Handgun
+Human face
+Knife
+Person
+Rifle
+Shotgun
+Weapon
